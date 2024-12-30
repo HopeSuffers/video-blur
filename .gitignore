@@ -30,3 +30,41 @@
 *.exe
 *.out
 *.app
+
+# Build directories
+cmake-build-debug/
+cmake-build-release/
+build/
+bin/
+
+# IDE-specific directories
+.vs/
+.idea/
+.vscode/
+
+# CLion-specific files
+cmake-build-*/  # CLion temporary build directories
+
+# Visual Studio specific
+*.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.ncb
+*.user
+*.htm
+*.log
+*.opensdf
+ipch/
+*.aps
+*.pch
+*.ilk
+*.idb
+*.pdb
+*.opendb
+*.tlog
+
+# VS Code specific
+*.code-workspace
+*.vscode/
